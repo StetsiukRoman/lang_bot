@@ -2,7 +2,18 @@
 
 var Botkit = require('botkit');
 
-var controller = Botkit.anywhere(configuration);
+access_token=
+
+
+var controller = Botkit.facebookbot({
+    debug: true,
+    access_token: "process.env.FACEBOOK_PAGE_TOKEN",
+    verify_token: "BLgvJie6vfDyoPly",
+})
+
+
+var bot = controller.spawn({
+});
 
 // Imports dependencies and set up http server
 const
