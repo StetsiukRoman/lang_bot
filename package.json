@@ -1,0 +1,24 @@
+{
+  "name": "lang_bot",
+  "version": "1.0.0",
+  "description": "Bot for learning new words",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StetsiukRoman/lang_bot.git"
+  },
+  "keywords": [
+    "fb",
+    "bot",
+    "english"
+  ],
+  "author": "Roman Stetsiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StetsiukRoman/lang_bot/issues"
+  },
+  "homepage": "https://github.com/StetsiukRoman/lang_bot#readme"
+}
