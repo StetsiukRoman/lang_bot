@@ -23,6 +23,7 @@
   "homepage": "https://github.com/StetsiukRoman/lang_bot#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "botkit": "^0.6.16",
     "express": "^4.16.3"
   }
 }

@@ -1,5 +1,9 @@
 'use strict';
 
+var Botkit = require('botkit');
+
+var controller = Botkit.anywhere(configuration);
+
 // Imports dependencies and set up http server
 const
   express = require('express'),
@@ -62,4 +66,9 @@ app.get('/webhook', (req, res) => {
       res.sendStatus(403);      
     }
   }
+});
+
+
+controller.hears('hello','direct_message', function(bot, message) {
+    bot.reply(message,'Hello yourself!');
 });
