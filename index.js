@@ -2,8 +2,6 @@
 
 var Botkit = require('botkit');
 
-access_token=
-
 
 var controller = Botkit.facebookbot({
     debug: true,
